@@ -4,4 +4,4 @@ import FormContainer from '../src/js/components/container/FormContainer';
 
 
 const wrapper = document.getElementById("app");
-ReactDOM.render(<FormContainer />, wrapper) ;
+ReactDOM.render(<FormContainer />, wrapper);
