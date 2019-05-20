@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 
-import Input from "../presentational/Input";
+import SliderWrapper from "../presentational/SliderWrapper";
 
 class FormContainer extends Component {
   constructor() {
@@ -19,14 +19,7 @@ class FormContainer extends Component {
   render() {
     return (
       <form id="article-form">
-        <Input
-          text="SEO title"
-          label="seo_title"
-          type="text"
-          id="seo_title"
-          value={this.state.title}
-          handleChange={this.handleChange}
-        />
+        <SliderWrapper />
       </form>
     );
   }
