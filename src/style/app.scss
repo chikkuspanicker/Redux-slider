@@ -27,3 +27,19 @@
     display: block;
   }
 }
+ul {
+    padding: 0;
+}
+.img-container {
+    min-height: 400px;
+    background-size: 100% !important;
+}
+.img-0 {
+    background: url('../img/1.jpeg');
+}
+.img-1 {
+    background: url('../img/2.jpeg');
+}
+.img-2 {
+    background: url('../img/3.jpeg');
+}

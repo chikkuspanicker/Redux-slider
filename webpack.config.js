@@ -1,6 +1,6 @@
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 module.exports = {
-  entry: './src/index.js',
+  entry: "./src/index.js",
   devServer: {
     inline: false,
     contentBase: "./dist"
@@ -24,11 +24,11 @@ module.exports = {
       },
       {
         test: /\.s?css$/,
-        use: [
-          'style-loader',
-          'css-loader',
-          'sass-loader'
-        ]
+        use: ["style-loader", "css-loader", "sass-loader"]
+      },
+      {
+        test: /\.(png|svg|jpg|jpeg||gif)$/,
+        use: ["file-loader"]
       }
     ]
   },
